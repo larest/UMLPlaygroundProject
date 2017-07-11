@@ -13,10 +13,13 @@ HRDepartment ->HRDepartment: collect candidates
 HRDepartment ->HRBoss: return candiates
 deactivate HRDepartment
 
-HRBoss->Boss: return candidates
-activate Boss
-deactivate HRBoss
 
+HRBoss->Boss: return candidates
+
+deactivate HRBoss
+activate Boss
+
+create Candidates
 Boss ->Candidates: choose candidate
 activate Candidates
 Candidates -> Boss : return candidate

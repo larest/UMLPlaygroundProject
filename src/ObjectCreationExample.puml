@@ -1,0 +1,25 @@
+@startuml
+participant OneClass
+activate OneClass
+[o-> OneClass:
+create Instance
+OneClass->Instance : new
+
+
+OneClass->Instance : message
+activate Instance
+
+OneClass<--Instance : return
+
+Instance<--Instance
+activate Instance
+deactivate Instance
+
+OneClass->Instance : messageText
+deactivate Instance
+
+OneClass->Instance : delete
+destroy Instance
+deactivate OneClass
+
+@enduml
