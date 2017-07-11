@@ -1,0 +1,29 @@
+@startuml
+
+title NewEmploeyee Sequence
+
+
+Boss->HRBoss: request_for_employer
+activate HRBoss
+
+HRBoss->HRDepartment: find candidates
+activate HRDepartment
+
+HRDepartment ->HRDepartment: collect candidates
+HRDepartment ->HRBoss: return candiates
+deactivate HRDepartment
+
+HRBoss->Boss: return candidates
+activate Boss
+deactivate HRBoss
+
+Boss ->Candidates: choose candidate
+activate Candidates
+Candidates -> Boss : return candidate
+deactivate Candidates
+
+
+Boss -> Deparment : hire candidate
+deactivate Boss
+
+@enduml
