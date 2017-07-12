@@ -16,6 +16,12 @@
   </nodes>
   <notes />
   <edges>
+    <edge source="Boss" target="Employee">
+      <point x="29.625" y="-14.5" />
+      <point x="154.3270833333334" y="301.0" />
+      <point x="307.3243055555556" y="301.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
     <edge source="Company" target="Unit">
       <point x="35.33333333333334" y="-14.5" />
       <point x="170.15763888888895" y="459.0" />
@@ -23,12 +29,6 @@
       <point x="569.5625" y="54.0" />
       <point x="315.24861111111125" y="54.0" />
       <point x="24.66666666666667" y="14.5" />
-    </edge>
-    <edge source="Boss" target="Employee">
-      <point x="29.625" y="-14.5" />
-      <point x="154.3270833333334" y="301.0" />
-      <point x="307.3243055555556" y="301.0" />
-      <point x="0.0" y="14.5" />
     </edge>
     <edge source="Workgroup" target="Unit">
       <point x="0.0" y="-14.5" />
@@ -43,7 +43,7 @@
       <point x="-24.66666666666667" y="14.5" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="285.0" y="256.5" />
+  <settings layout="Hierarchic Group" zoom="1.0" x="285.0" y="257.0" />
   <SelectedNodes>
     <node>Company</node>
   </SelectedNodes>
