@@ -16,20 +16,6 @@
   </nodes>
   <notes />
   <edges>
-    <edge source="Workgroup" target="Boss">
-      <point x="-29.5" y="14.5" />
-      <point x="261.08194444444456" y="138.0" />
-      <point x="77.82430555555561" y="138.0" />
-      <point x="77.82430555555561" y="301.0" />
-      <point x="95.0770833333334" y="301.0" />
-      <point x="-29.625" y="-14.5" />
-    </edge>
-    <edge source="Employee" target="IdCard">
-      <point x="-20.0625" y="-14.5" />
-      <point x="287.2618055555556" y="207.0" />
-      <point x="244.0625" y="207.0" />
-      <point x="0.0" y="14.5" />
-    </edge>
     <edge source="Company" target="Unit">
       <point x="35.33333333333334" y="-14.5" />
       <point x="170.15763888888895" y="459.0" />
@@ -38,84 +24,14 @@
       <point x="315.24861111111125" y="54.0" />
       <point x="24.66666666666667" y="14.5" />
     </edge>
-    <edge source="Employee" target="PastPosition">
-      <point x="46.8125" y="-14.5" />
-      <point x="354.1368055555556" y="227.0" />
-      <point x="496.5625" y="227.0" />
-      <point x="0.0" y="14.5" />
-    </edge>
-    <edge source="Company" target="Boss">
-      <point x="0.0" y="-14.5" />
-      <point x="134.8243055555556" y="459.0" />
-      <point x="144.4520833333334" y="459.0" />
-      <point x="19.75" y="14.5" />
-    </edge>
-    <edge source="PastPosition" target="Workgroup">
-      <point x="0.0" y="-14.5" />
-      <point x="496.5625" y="138.0" />
-      <point x="339.74861111111125" y="138.0" />
-      <point x="49.166666666666686" y="14.5" />
-    </edge>
-    <edge source="Employee" target="Workgroup">
-      <point x="20.0625" y="-14.5" />
-      <point x="327.3868055555556" y="227.0" />
-      <point x="320.5625" y="227.0" />
-      <point x="29.5" y="14.5" />
-    </edge>
-    <edge source="Company" target="Department">
-      <point x="-35.33333333333334" y="-14.5" />
-      <point x="99.49097222222227" y="459.0" />
-      <point x="60.0" y="459.0" />
-      <point x="0.0" y="14.5" />
-    </edge>
     <edge source="Boss" target="Employee">
       <point x="29.625" y="-14.5" />
       <point x="154.3270833333334" y="301.0" />
       <point x="307.3243055555556" y="301.0" />
       <point x="0.0" y="14.5" />
     </edge>
-    <edge source="Employee" target="Person">
-      <point x="-33.4375" y="-14.5" />
-      <point x="273.8868055555556" y="217.0" />
-      <point x="168.6875" y="217.0" />
-      <point x="34.125" y="14.5" />
-    </edge>
-    <edge source="Boss" target="Person">
-      <point x="-9.875" y="-14.5" />
-      <point x="114.8270833333334" y="301.0" />
-      <point x="100.875" y="301.0" />
-      <point x="-34.125" y="14.5" />
-    </edge>
-    <edge source="Department" target="Boss">
-      <point x="40.0" y="-14.5" />
-      <point x="100.0" y="380.0" />
-      <point x="104.9520833333334" y="380.0" />
-      <point x="-19.75" y="14.5" />
-    </edge>
-    <edge source="Department" target="Workgroup">
-      <point x="0.0" y="-14.5" />
-      <point x="60.0" y="380.0" />
-      <point x="45.5" y="380.0" />
-      <point x="45.5" y="128.0" />
-      <point x="241.41527777777787" y="128.0" />
-      <point x="-49.166666666666686" y="14.5" />
-    </edge>
-    <edge source="Workgroup" target="Employee">
-      <point x="9.833333333333314" y="14.5" />
-      <point x="300.4152777777779" y="128.0" />
-      <point x="309.5625" y="128.0" />
-      <point x="309.5625" y="227.0" />
-      <point x="314.0118055555556" y="227.0" />
-      <point x="6.6875" y="-14.5" />
-    </edge>
     <edge source="Workgroup" target="Unit">
       <point x="0.0" y="-14.5" />
-      <point x="0.0" y="14.5" />
-    </edge>
-    <edge source="Employee" target="Room">
-      <point x="33.4375" y="-14.5" />
-      <point x="340.7618055555556" y="217.0" />
-      <point x="372.5625" y="217.0" />
       <point x="0.0" y="14.5" />
     </edge>
     <edge source="Department" target="Unit">
@@ -128,7 +44,9 @@
     </edge>
   </edges>
   <settings layout="Hierarchic Group" zoom="1.0" x="285.0" y="256.5" />
-  <SelectedNodes />
+  <SelectedNodes>
+    <node>Company</node>
+  </SelectedNodes>
   <Categories />
   <SCOPE>All</SCOPE>
   <VISIBILITY>private</VISIBILITY>

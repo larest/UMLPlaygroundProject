@@ -11,7 +11,7 @@ activate Instance
 
 OneClass<--Instance : return
 
-Instance<--Instance
+Instance<-Instance : self call
 activate Instance
 deactivate Instance
 
