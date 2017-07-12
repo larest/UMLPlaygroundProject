@@ -1,4 +1,3 @@
-
 ## среда
 Intellij IDEA  Ultimate или языковые версии
 
@@ -27,3 +26,6 @@ PlantUML - скачиваем из репозитория.
     ![ObjectCreationExample.png](imgs/ObjectCreationExample.png)
     *Если в правой панели ничего не рисуется то вам [сюда](http://plantuml.com/graphviz-dot)*
 
+## UML
+  [Диаграммы классов](ClassDiagramms.md)
+  [Диаграммы последовательностей](SequenceDiagramms.md)
