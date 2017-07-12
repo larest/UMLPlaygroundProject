@@ -28,4 +28,4 @@ PlantUML - скачиваем из репозитория.
 
 ## UML
   [Диаграммы классов](ClassDiagramms.md)
-  [Диаграммы последовательностей](SequenceDiagramms.md)
+  [Диаграммы последовательности](SequenceDiagramms.md)
