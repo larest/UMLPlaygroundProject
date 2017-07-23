@@ -16,6 +16,10 @@ activate Instance
 deactivate Instance
 
 OneClass->Instance : messageText
+activate Instance
+OneClass->Instance : messageText2
+deactivate Instance
+
 deactivate Instance
 
 OneClass->Instance : delete
