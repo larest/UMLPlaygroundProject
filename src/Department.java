@@ -1,13 +1,6 @@
 
-public class Department implements Unit {
-    Workgroup[] workgroups;
+public class Department extends AbstractDepartment {
     private Boss director;
-
-    private String name;
-
-    public String getName() {
-        return name;
-    }
 
     public void setName(String name) {
         this.name = name;
@@ -24,13 +17,4 @@ public class Department implements Unit {
     }
 
 
-
-
-    public int getPersonCount() {
-        int count=0;
-        for (int i=0; i<workgroups.length; i++){
-            count+=workgroups[i].getPersonCount();
-        }
-        return count;
-    }
 }

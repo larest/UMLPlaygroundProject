@@ -1,0 +1,22 @@
+@startuml
+[-> Boss: new_position
+Boss -> Department: find candidate for the position
+activate Department
+Department -> Boss: return list of candidates
+
+deactivate Department
+
+Boss -> Department: promote candidate
+
+activate Department
+Department -> Employee : offer the position
+
+activate Employee
+Employee -> Employee : thinking
+Employee --> Department: accept position
+deactivate Employee
+Department --> Boss: success
+
+deactivate Department
+
+@enduml

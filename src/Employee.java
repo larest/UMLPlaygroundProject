@@ -15,15 +15,7 @@ public class Employee {
     private Set<Room> room = new HashSet();
     private Set<PastPosition> pastPosition = new HashSet();
 
-    public Workgroup getWorkgroup() {
-        return workgroup;
-    }
 
-    public void setWorkgroup(Workgroup workgroup) {
-        this.workgroup = workgroup;
-    }
-
-    private Workgroup workgroup;
 
     public Employee(String name, String surname, String position){
         person.name = name;

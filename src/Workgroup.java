@@ -22,7 +22,7 @@ public class Workgroup implements Unit {
         return name;
     }
 
-    public void addEmployee(Employee newEmployee){
+    public void addEmployee(WorkgroupEmployee newEmployee){
         employees.add(newEmployee);
         // связываем сотрудника с этим отделом
         newEmployee.setWorkgroup(this);

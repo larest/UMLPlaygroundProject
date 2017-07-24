@@ -3,47 +3,107 @@
   <ID>JAVA</ID>
   <OriginalElement>Company</OriginalElement>
   <nodes>
-    <node x="81.82430555555561" y="484.0">Company</node>
+    <node x="375.641121031746" y="484.0">Company</node>
+    <node x="371.0" y="326.0">Boss</node>
     <node x="0.0" y="405.0">Department</node>
-    <node x="85.2020833333334" y="326.0">Boss</node>
-    <node x="434.0625" y="158.0">PastPosition</node>
-    <node x="253.8243055555556" y="247.0">Employee</node>
-    <node x="200.0625" y="158.0">IdCard</node>
-    <node x="253.58194444444456" y="0.0">Unit</node>
-    <node x="231.58194444444456" y="79.0">Workgroup</node>
-    <node x="331.0625" y="158.0">Room</node>
-    <node x="89.0625" y="158.0">Person</node>
+    <node x="247.5" y="247.0">Employee</node>
+    <node x="362.5" y="158.0">PastPosition</node>
+    <node x="151.5" y="158.0">IdCard</node>
+    <node x="416.93278769841265" y="79.0">Workgroup</node>
+    <node x="444.7366071428571" y="0.0">Unit</node>
+    <node x="259.5" y="158.0">Room</node>
+    <node x="40.5" y="158.0">Person</node>
   </nodes>
   <notes />
   <edges>
-    <edge source="Boss" target="Employee">
-      <point x="29.625" y="-14.5" />
-      <point x="154.3270833333334" y="301.0" />
-      <point x="307.3243055555556" y="301.0" />
+    <edge source="Workgroup" target="Boss">
+      <point x="44.25" y="14.5" />
+      <point x="520.9327876984127" y="301.0" />
+      <point x="430.25" y="301.0" />
+      <point x="19.75" y="-14.5" />
+    </edge>
+    <edge source="Employee" target="IdCard">
+      <point x="-15.285714285714278" y="-14.5" />
+      <point x="285.7142857142857" y="207.0" />
+      <point x="195.5" y="207.0" />
       <point x="0.0" y="14.5" />
     </edge>
     <edge source="Company" target="Unit">
-      <point x="35.33333333333334" y="-14.5" />
-      <point x="170.15763888888895" y="459.0" />
-      <point x="569.5625" y="459.0" />
-      <point x="569.5625" y="54.0" />
-      <point x="315.24861111111125" y="54.0" />
-      <point x="24.66666666666667" y="14.5" />
+      <point x="35.333333333333314" y="-14.5" />
+      <point x="463.9744543650794" y="459.0" />
+      <point x="545.4327876984127" y="459.0" />
+      <point x="545.4327876984127" y="54.0" />
+      <point x="506.4032738095238" y="54.0" />
+      <point x="24.666666666666686" y="14.5" />
     </edge>
-    <edge source="Workgroup" target="Unit">
+    <edge source="Employee" target="PastPosition">
+      <point x="15.285714285714278" y="-14.5" />
+      <point x="316.2857142857143" y="207.0" />
+      <point x="425.0" y="207.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="PastPosition" target="Workgroup">
+      <point x="0.0" y="-14.5" />
+      <point x="425.0" y="138.0" />
+      <point x="431.68278769841265" y="138.0" />
+      <point x="-44.25" y="14.5" />
+    </edge>
+    <edge source="Company" target="Boss">
+      <point x="-5.6843418860808015E-14" y="-14.5" />
+      <point x="428.641121031746" y="459.0" />
+      <point x="430.25" y="459.0" />
+      <point x="19.75" y="14.5" />
+    </edge>
+    <edge source="Company" target="Department">
+      <point x="-35.33333333333343" y="-14.5" />
+      <point x="393.30778769841265" y="459.0" />
+      <point x="60.0" y="459.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="Boss" target="Employee">
+      <point x="-19.75" y="-14.5" />
+      <point x="390.75" y="301.0" />
+      <point x="301.0" y="301.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="Employee" target="Person">
+      <point x="-30.571428571428555" y="-14.5" />
+      <point x="270.42857142857144" y="217.0" />
+      <point x="108.75" y="217.0" />
+      <point x="22.75" y="14.5" />
+    </edge>
+    <edge source="Department" target="Boss">
+      <point x="30.0" y="-14.5" />
+      <point x="90.0" y="380.0" />
+      <point x="390.75" y="380.0" />
+      <point x="-19.75" y="14.5" />
+    </edge>
+    <edge source="Workgroup" target="Employee">
+      <point x="-14.75" y="14.5" />
+      <point x="461.18278769841265" y="138.0" />
+      <point x="498.0" y="138.0" />
+      <point x="498.0" y="217.0" />
+      <point x="331.57142857142856" y="217.0" />
+      <point x="30.571428571428555" y="-14.5" />
+    </edge>
+    <edge source="Department" target="Unit">
+      <point x="-30.0" y="-14.5" />
+      <point x="30.0" y="54.0" />
+      <point x="457.0699404761904" y="54.0" />
+      <point x="-24.666666666666686" y="14.5" />
+    </edge>
+    <edge source="Employee" target="Room">
       <point x="0.0" y="-14.5" />
       <point x="0.0" y="14.5" />
     </edge>
-    <edge source="Department" target="Unit">
-      <point x="-40.0" y="-14.5" />
-      <point x="20.0" y="380.0" />
-      <point x="34.5" y="380.0" />
-      <point x="34.5" y="54.0" />
-      <point x="265.9152777777779" y="54.0" />
-      <point x="-24.66666666666667" y="14.5" />
+    <edge source="Workgroup" target="Unit">
+      <point x="0.0" y="-14.5" />
+      <point x="475.93278769841265" y="54.0" />
+      <point x="481.7366071428571" y="54.0" />
+      <point x="0.0" y="14.5" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="285.0" y="257.0" />
+  <settings layout="Hierarchic Group" zoom="1.0" x="273.0" y="256.5" />
   <SelectedNodes>
     <node>Company</node>
   </SelectedNodes>
