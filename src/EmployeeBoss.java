@@ -2,9 +2,6 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class EmployeeBoss {
-    public Person getPerson() {
-        return person;
-    }
 
     private final Person person = new Person();
     private String position;
@@ -16,6 +13,10 @@ public class EmployeeBoss {
         person.name = name;
         person.surname = surname;
         this.position = position;
+    }
+
+    public Person getPerson() {
+        return person;
     }
 
     public void setPosition(String newPosition){
